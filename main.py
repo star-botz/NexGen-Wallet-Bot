@@ -15,8 +15,8 @@ import pytz
 
 # ================== CONFIGURATION ==================
 TOKEN = "8136602152:AAE3OSp90istOdoESCiIRd_RosDX_V3ws4I"  # Wallet Bot ka alag token
-OWNER_ID = [7937954612]
-ADMIN_ID = [7937954612]
+OWNER_ID = [7973809312]
+ADMIN_ID = [7973809312]
 ADMINS = OWNER_ID + ADMIN_ID
 
 # UPI Configuration
@@ -24,13 +24,13 @@ UPI_ID = 'paytm.s1wl90c@pty'
 PAYTM_API_URL = 'https://paytm-api.litedns.xyz/?mid=YBXOxW63443729109038&oid={order_id}'
 
 # Group Configuration
-ADMIN_LOGS_GROUP = -1002882027888
+ADMIN_LOGS_GROUP = -1003323347497
 ADMIN_LOGS_TOPIC = {
-    'success_payment': 3,
-    'failed_payment': 4,
-    'admin_funds_add': 5,
-    'daily_summary': 6,
-    'analytics_bot': 6
+    'success_payment': 2,
+    'failed_payment': 3,
+    'admin_funds_add': 4,
+    'daily_summary': 5,
+    'analytics_bot': 5
 }
 
 # MongoDB Configuration
