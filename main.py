@@ -25,7 +25,7 @@ IST = pytz.timezone('Asia/Kolkata')
 # MongoDB Configuration
 MONGO_DB_URI = "mongodb+srv://starbotzofficial_db_user:ssHukAD790DMdDc5@star-deals.juuqpw5.mongodb.net/?retryWrites=true&w=majority&appName=Star-Deals"
 client = MongoClient(MONGO_DB_URI)
-db = client["NexGenWalletbot"]  # Wallet Database
+db = client["N_wallet"]  # Wallet Database
 
 # Collections
 users_col = db["users"]        # User data (for broadcast/ban)
